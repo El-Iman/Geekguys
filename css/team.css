@@ -1,0 +1,248 @@
+body{
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+    #home{
+      position: relative;
+      background-size: cover;
+      padding-bottom: 130px;
+      background-repeat: no-repeat;
+    }
+    .navbar{
+      border: 0px;
+      border-radius: 0;
+      position: fixed;
+      z-index: 9999999;
+    }
+    .navbar-light{
+      width: 100%; 
+      background: none;
+      border-bottom: 1px solid gray;
+      padding: 1rem ;
+    }
+   
+    .navbar-light .navbar-brand{
+      color: white;
+      font-size: 1.7rem; 
+      /* font-style:italic; */
+      font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .navbar-light .navbar-nav .nav-link{
+      color: #868383;
+      padding:10px 20px 10px 10px;
+    }
+  .disabled{
+    color: #959595;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link,
+   .navbar-light .navbar-nav .nav-link.active,
+   .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show > .nav-link,
+    .navbar-light .navbar-nav .nav-link:hover{
+      color: #007fbb;
+    }
+    #home .home {
+      text-align: center;
+      padding-top: 270px;
+      margin: auto;
+     color: white;
+     font-family: initial;
+
+    }
+   #home .home h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: 'Baloo Bhaina 2', cursive;
+   }
+   #home .home .lead{
+     color: white;
+     font-family: 'Baloo Bhaina 2', cursive;
+   }
+   #home .home .contain span{
+     color:gold;
+     font-size: 25px;
+   }
+   #home .home .badge {
+    padding: .9em .5em;
+    background-color: #007bff;
+    border-radius: 35px;
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  #home .home .badge-pill {
+    padding-right: 1.6em;
+    padding-left: 1.6em;
+    font-size: medium;
+  }
+
+  #home .home .badge-info:hover{
+    color: #007bff;
+    background-color: #ffffff;
+  }
+  .home .wow{
+    margin-top: 70px;
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+ .home .mouse{
+   position: absolute;
+    padding-top: 100px;
+   bottom: 5%;
+   left: 50%;
+ }
+  .home .mouse .toabout{
+    height: 45px;
+    width: 25px;
+    border-radius: 10px;
+    border:1px solid gray;
+    color: white;
+    margin: auto;
+    line-height: 1rem;
+  }
+  
+  /*mediaQuery home*/
+  @media(max-width:992px){
+    .navbar-light .navbar-nav .nav-link{
+      background-color: #fcfcfcef;
+      border-top: 1px solid #c9c9db;
+      color: #909090;
+  }
+  .disabled{
+    color: #909090;
+  }
+  .navbar-light{
+    padding: .5rem 2rem;
+  }
+  .navbar-light .navbar-toggler {
+   background-color: white;
+}
+}
+
+  /* our projects */
+  
+  .projects {
+    padding-top: 100px;
+    margin-top: 100px;
+    text-align: center;
+    color: #007bff;
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .projects h1,.contact h1{
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .projects h1{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  .project img{
+    margin-bottom: 5px;
+  }
+  .projects .badge{
+    padding: .99em 1.7em;
+    border-radius: 2.25rem;
+    margin: 10px;
+    
+    cursor: pointer;
+  }
+  .projects .badge-info{
+    background-color: #5352522b;
+  }
+  .projects .act{
+    background-color: #007bff;
+  }
+
+  .projects .col-sm-4{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .projects .out{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:black;
+    opacity: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: right;
+    transition: all .6s ease-in-out;
+  
+  }
+  .projects .out .search{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    color: white;
+  }
+  .projects .out:hover{
+    opacity: .4;
+  }
+  
+  .display{
+    display: none;
+  }
+  
+  
+  /* contact */
+  
+  #contact{
+    background-color: #dad5d54a;
+    height: auto;
+    padding-top: 6%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+  
+  }
+  .contact .cont,.inform p a{
+    color: #007bff;
+  }
+  .contact .inform,.contact .cont{
+    text-align: center;
+  }
+  .contact .inform{
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+ .contact .fas{
+   color: rgb(185, 180, 180);
+   margin-bottom: 20px;
+ }
+ .contact .inform .col-sm-4{
+   margin-bottom: 30px;
+ }
+  .contact .form{
+    padding: 50px;
+    background-color: white;
+  }
+  .contact .form h4{
+    margin-bottom: 30px;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  .contact .form label{
+    font-weight: 500;
+  }
+  .contact .feedback,
+  .form-control{
+    font-size: small;
+  }
+  .contact .feedback{
+    padding-top: 3px;
+  }
+  .form-control{
+    border: 1px solid #a8cef7;
+    border-radius: 1.25rem;
+    padding: 1.25rem .75rem;
+  }
+  .btn-primary{
+    background-color: #007fbb;
+    border-color: #2e6da400;
+    border-radius: 1.5rem;
+  }
+  
+ 

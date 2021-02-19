@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: 400;
+}
+#overlayer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999999999;
+    background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  
+  .loader {
+    z-index: 99999999999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .sk-circle {
+        margin: 100px auto;
+        width: 40px;
+        height: 40px;
+        position: relative;
+      }
+      .sk-circle .sk-child {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .sk-circle .sk-child:before {
+        content: '';
+        display: block;
+        margin: 0 auto;
+        width: 15%;
+        height: 15%;
+        background-color: #007bff;
+        border-radius: 100%;
+        -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+                animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+      }
+      .sk-circle .sk-circle2 {
+        -webkit-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+                transform: rotate(30deg); }
+      .sk-circle .sk-circle3 {
+        -webkit-transform: rotate(60deg);
+            -ms-transform: rotate(60deg);
+                transform: rotate(60deg); }
+      .sk-circle .sk-circle4 {
+        -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg); }
+      .sk-circle .sk-circle5 {
+        -webkit-transform: rotate(120deg);
+            -ms-transform: rotate(120deg);
+                transform: rotate(120deg); }
+      .sk-circle .sk-circle6 {
+        -webkit-transform: rotate(150deg);
+            -ms-transform: rotate(150deg);
+                transform: rotate(150deg); }
+      .sk-circle .sk-circle7 {
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg); }
+      .sk-circle .sk-circle8 {
+        -webkit-transform: rotate(210deg);
+            -ms-transform: rotate(210deg);
+                transform: rotate(210deg); }
+      .sk-circle .sk-circle9 {
+        -webkit-transform: rotate(240deg);
+            -ms-transform: rotate(240deg);
+                transform: rotate(240deg); }
+      .sk-circle .sk-circle10 {
+        -webkit-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+                transform: rotate(270deg); }
+      .sk-circle .sk-circle11 {
+        -webkit-transform: rotate(300deg);
+            -ms-transform: rotate(300deg);
+                transform: rotate(300deg); }
+      .sk-circle .sk-circle12 {
+        -webkit-transform: rotate(330deg);
+            -ms-transform: rotate(330deg);
+                transform: rotate(330deg); }
+      .sk-circle .sk-circle2:before {
+        -webkit-animation-delay: -1.1s;
+                animation-delay: -1.1s; }
+      .sk-circle .sk-circle3:before {
+        -webkit-animation-delay: -1s;
+                animation-delay: -1s; }
+      .sk-circle .sk-circle4:before {
+        -webkit-animation-delay: -0.9s;
+                animation-delay: -0.9s; }
+      .sk-circle .sk-circle5:before {
+        -webkit-animation-delay: -0.8s;
+                animation-delay: -0.8s; }
+      .sk-circle .sk-circle6:before {
+        -webkit-animation-delay: -0.7s;
+                animation-delay: -0.7s; }
+      .sk-circle .sk-circle7:before {
+        -webkit-animation-delay: -0.6s;
+                animation-delay: -0.6s; }
+      .sk-circle .sk-circle8:before {
+        -webkit-animation-delay: -0.5s;
+                animation-delay: -0.5s; }
+      .sk-circle .sk-circle9:before {
+        -webkit-animation-delay: -0.4s;
+                animation-delay: -0.4s; }
+      .sk-circle .sk-circle10:before {
+        -webkit-animation-delay: -0.3s;
+                animation-delay: -0.3s; }
+      .sk-circle .sk-circle11:before {
+        -webkit-animation-delay: -0.2s;
+                animation-delay: -0.2s; }
+      .sk-circle .sk-circle12:before {
+        -webkit-animation-delay: -0.1s;
+                animation-delay: -0.1s; }
+      
+      @-webkit-keyframes sk-circleBounceDelay {
+        0%, 80%, 100% {
+          -webkit-transform: scale(0);
+                  transform: scale(0);
+        } 40% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
+      
+      @keyframes sk-circleBounceDelay {
+        0%, 80%, 100% {
+          -webkit-transform: scale(0);
+                  transform: scale(0);
+        } 40% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }  
+.aboutUs-section{
+    padding-top: 6%;
+  margin-top: 10%;
+}
+.text-center{
+    padding: 5px;
+}
+.section-title{
+    color:#007bff;
+    font-weight: 900;
+}
+.text-black{
+    color: black;
+}
+.aboutUs-section ul{
+    list-style-type: disc;
+    color: #007bff;
+
+}
+.aboutUs-section ul li , .aboutUs-section p{
+    color: gray;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.aboutUs-section ul li{
+    line-height: 40px;
+}
+.team-section{
+   padding-top: 6%;
+    margin-top: 10%;
+}
+.caption{
+    color: gray;
+    opacity: 0.6;
+    font-size: 20px;
+    padding: 10px;
+}
+.team-member figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden; }
+  
+.team-member .social {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    bottom: 0;
+    padding: 10px;
+    -webkit-transform: translateX(-101%);
+    -ms-transform: translateX(-101%);
+    transform: translateX(-101%); 
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    background: #007bff; }
+.team-member .social li {
+      list-style: none; }
+.team-member .social li a {
+        display: inline-block;
+        padding: 5px;
+        color: #fff; }
+  
+.team-member h3 {
+    color: #000;
+    margin: 0;
+    bottom: 0;
+    font-size: 1.2rem; }
+  
+.team-member .position {
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .05rem; }
+  
+.team-member:hover .social {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%); 
+}
+.ourFeature-section{
+    padding-top: 6%;
+        margin-top: 10%;
+    }
+.custom-direction {
+        position: relative;
+        z-index: 99;
+        border-radius: 7px;
+        position: absolute;
+        right: -50px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        display: inline-block;
+        background: #007bff; }
+        @media (max-width: 991.98px) {
+.custom-direction {
+            bottom: -25px;
+            top: auto !important;
+            right: 50% !important;
+            -webkit-transform: translateX(50%);
+            -ms-transform: translateX(50%);
+            transform: translateX(50%); } }
+.custom-direction a {
+          padding: 10px 20px;
+          display: inline-block;
+          color: #fff;
+          font-size: 1.5rem; }
+.custom-direction a.custom-next > span > span {
+            position: relative;
+            display: inline-block;
+            -webkit-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg); }
+.sevices-sec{
+    margin-top: 10%;
+    padding-top: 6%;
+}
+.text-primary{
+    font-size: 50px;
+    padding: 2px;
+    margin-bottom: 30px;
+}
+/* .ul-check {
+margin-bottom: 50px; }
+.ul-check li {
+position: relative;
+padding-left: 35px;
+margin-bottom: 15px;
+line-height: 1.5; }
+.ul-check li:before {
+left: 0;
+font-size: 20px;
+top: -.3rem;
+font-family: "icomoon";
+content: "\e5ca";
+position: absolute; }
+.ul-check.white li:before {
+      color: #fff; }
+.ul-check.success li:before {
+      color: #71bc42; } */
